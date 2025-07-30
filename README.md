@@ -4,7 +4,8 @@ An open-source, decentralized version of Typeracer coded in Python. Currently ju
 Started on July 30th, 2025 by C0m3b4ck. Right now, there are no other contributors.
 # Requirements
 Is coded to support Windows and Linux, tested on Ubuntu Linux.
-Tested on Python 3.13, required libraries in requirements.txt
+Tested on Python 3.13, required libraries in requirements.txt. 
+<br>Install them with **pip install -r requirements.txt**
 # Controls
 * **Sentence Selection:**
     Upon launching the program, you will be presented with a list of predefined sentences and an option to select a random sentence.      Enter the corresponding number and press Enter to choose.
