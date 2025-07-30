@@ -6,25 +6,25 @@ Started on July 30th, 2025 by C0m3b4ck. Right now, there are no other contributo
 Is coded to support Windows and Linux, tested on Ubuntu Linux.
 Tested on Python 3.13, required libraries in requirements.txt
 # Controls
-* Sentence Selection:
+* **Sentence Selection:**
     Upon launching the program, you will be presented with a list of predefined sentences and an option to select a random sentence.      Enter the corresponding number and press Enter to choose.
 
-* Starting the Game:
+* **Starting the Game:**
     After selecting the sentence, press Enter when you are ready to start typing.
 
-* Typing:
+* **Typing:**
     Type the sentence shown on the screen. The next character to type is highlighted with cyan color and underline.
 
-* Backspace:
+* **Backspace:**
     Use the Backspace key to delete the previous character and correct mistakes.
 
-* Error Handling:
+* **Error Handling:**
     If you type an incorrect character, typing will pause and display a message about the typo. You must type the correct letter to proceed.
 
-* Finishing:
+* **Finishing:**
     After completing the sentence correctly, your typing statistics will be displayed, and your score will be saved.
 
-* Menu:
+* **Menu:**
 At the beginning of the script and after competing a game:
 
         * Play again (shows the sentence selection)
@@ -35,40 +35,40 @@ At the beginning of the script and after competing a game:
 
 # Features
 
-* Offline Typing Test:
+* **Offline Typing Test:**
     No internet connection required; runs entirely in the console.
 
-* Sentence Selection:
+* **Sentence Selection:**
     Choose from 10 predefined sentences or let the program generate one randomly.
 
-* Per-Character Highlighting:
+* **Per-Character Highlighting:**
     The current letter to type is highlighted using colored text and underlining to improve focus.
 
-* Precise Timing:
+* **Precise Timing:**
     Measures time taken per individual keystroke, total typing time, calculates words per minute (WPM) and time between keypresses.
 
-* Accuracy Calculation:
+* **Accuracy Calculation:**
     Compares your input against the original sentence, computing character-level accuracy.
 
-* Backspace Support:
+* **Backspace Support:**
     Allows correction of mistakes before finalizing input.
 
-* Anti-Cheat Detection:
+* **Anti-Cheat Detection:**
     Flags suspiciously consistent and rapid keypress patterns indicative of macros or automated input. If cheats are detected, stats from that session are cleared
 
-* Error Blocking:
+* **Error Blocking:**
     Prevents progressing past a mistyped character until corrected, encouraging accurate typing.
 
-* Score Persistence:
+* **Score Persistence:**
     Saves each test's detailed stats to timestamped files in a dedicated stats folder.
 
-* Cumulative Stats Tracking:
+* **Cumulative Stats Tracking:**
     Maintains a stats.txt log with all session data, excluding flagged cheating attempts. Used to show stat graphs for the user.
 
-* Performance Visualization:
+* **Performance Visualization:**
     Displays graphs of WPM, accuracy, total time, and average time between letters over all previous sessions using matplotlib.
 
-* Graph Interaction:
+* **Graph Interaction:**
     Close performance graphs by pressing C or c.
 
 # Roadmap
