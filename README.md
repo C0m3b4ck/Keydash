@@ -73,6 +73,7 @@ At the beginning of the script and after competing a game:
 
 # Roadmap
 
+* Polish offline anticheat (will release test cheat client archival versions)
 * Peer-to-peer games (between to players, who are both the server and the client, scores compare between them) - potential problem would be modifying packets to spoof scores (cheat modifies data in packet before sending it to other player)
 * Ability to host Keydash servers - hosts will be able to manage MOTD, player whitelist, custom sentences, custom server-side anticheat
 
