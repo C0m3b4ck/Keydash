@@ -26,6 +26,7 @@ Tested on Python 3.13, required libraries in requirements.txt
 
 * Menu:
 At the beginning of the script and after competing a game:
+
         * Play again (shows the sentence selection)
 
         * View performance graph (using pyplotlib, press C or c in the graph window to close it)
