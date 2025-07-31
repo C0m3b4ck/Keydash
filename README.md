@@ -1,4 +1,4 @@
-# Keydash ![GitHub All Releases](https://img.shields.io/github/downloads/C0m3b4ck/Racoon-MC-Modpack-Installer/total)
+# Keydash ![GitHub All Releases](https://img.shields.io/github/downloads/C0m3b4ck/Keydash/total)
 An open-source, decentralized version of Typeracer coded in Python. Currently just offline.
 # Contributors
 Started on July 30th, 2025 by C0m3b4ck. Right now, there are no other contributors.
